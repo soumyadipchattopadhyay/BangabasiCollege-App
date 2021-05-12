@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Splash">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/imageView8"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="#ddd"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Bangabasi College" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textView12"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#ddd"
+        android:layout_height="wrap_content"
+        android:text="प्रणिप्रातेन परिप्रशनेन सेवया" />
+
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="italic|normal"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:text="Developed by Soumyadip Chattopadhyay\nDepartment of Computer Science\nB. Sc. (Hons.) Batch 2018-2021\n" />
+</RelativeLayout>
